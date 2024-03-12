@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FastFood_Activity">
+
+    <ListView
+        android:id="@+id/fastfood_listview"
+        android:layout_width="397dp"
+        android:layout_height="557dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imgcart_fastfood"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="73dp"
+        android:background="#FFFFFF"
+        android:contentDescription="Giỏ hàng"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fastfood_listview"
+        app:srcCompat="@drawable/baseline_shopping_cart_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
